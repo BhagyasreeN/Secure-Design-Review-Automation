@@ -70,5 +70,3 @@ Automated security design review tool powered by Copilot Skills to identify vuln
 Contributions welcome!
 
 ```
-
-Would you like me to help you draft a complete README with specific content, or would you prefer to focus on any particular section first?
