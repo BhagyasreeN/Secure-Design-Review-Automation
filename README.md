@@ -238,8 +238,3 @@ For issues, questions, or feedback:
 - Check existing documentation in the `reference/` directory
 
 ---
-
-**Quick Links:**
-- [Copilot Instructions](.github/copilot-instructions.md)
-- [Report Field Mappings](reference/sdr-report-field-mappings.md)
-- [Quality Guidelines](reference/REPORT_QUALITY_IMPROVEMENTS.md)
