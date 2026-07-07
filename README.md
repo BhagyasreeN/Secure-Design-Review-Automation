@@ -1,6 +1,6 @@
 # Secure Design Review (SDR) Automation System
 
-This repository contains Copilot skills to automate the Secure Design Review process
+This repository contains Copilot skills to automate the Secure Design Review process for enterprise applications.
 
 ---
 
@@ -64,7 +64,7 @@ Standalone skills are in `skills/` - use only when you specifically need archite
 Generate the SDR report for <app-name>
 ```
 
-You'll be prompted for metadata  (SEAL IDs, JIRA story, etc.)
+You'll be prompted for metadata (SEAL IDs, JIRA story, etc.)
 
 Output: `SDR_<app>_<date>.html` (ready for manual Confluence upload)
 
@@ -129,7 +129,7 @@ SDR/
 │   ├── confluence-patterns.md          # Reference examples from actual reports
 │   ├── sdr-canonical-template.html     # Canonical report shell used for all reports
 │   ├── sdr-application-details-static.html # Locked fuller Application Details table
-│   ├── sdr-reviewed-areas-static.html  # Locked donor-aligned Reviewed Areas matrix
+│   ├── sdr-reviewed-areas-static.html  # Locked reviewed areas matrix
 │   ├── sdr-report-field-mappings.md    # Data source mappings
 │   ├── REPORT_QUALITY_IMPROVEMENTS.md  # Quality analysis and guidelines
 │   └── archive/                        # Historical reports and examples
@@ -204,7 +204,7 @@ Output: `SDR_<app>_<date>.html`
 
 **Total time:** 25-35 minutes
 
-**When to use:** Need offline review, non-CIBSECARCH space, custom template mods
+**When to use:** Need offline review, other spaces, custom template mods
 
 ---
 
@@ -357,9 +357,9 @@ INFRA-003: IAM Wildcard Permissions in iam.tf:45 [CRITICAL]
 - Template-first Confluence-compatible HTML generation
 - Single-component and multi-component reports use the same canonical shell
 - Locked fuller Application Details table sourced from `reference/sdr-application-details-static.html`
-- Locked donor-aligned Reviewed Areas matrix sourced from `reference/sdr-reviewed-areas-static.html`
+- Locked reviewed areas matrix sourced from `reference/sdr-reviewed-areas-static.html`
 - "Top Findings" section organized by security domain
-- Reviewed Areas only fills `Current State` and `CTC recommendations`
+- Reviewed Areas only fills `Current State` and `recommendations`
 - Missing evidence is stated explicitly in generated cells
 - Quality validation before output
 
@@ -378,7 +378,7 @@ INFRA-003: IAM Wildcard Permissions in iam.tf:45 [CRITICAL]
 
 **When to use:**
 - Need offline HTML file
-- Publishing to non-CIBSECARCH space
+- Publishing to other spaces
 - Want to email report as attachment
 - Require custom template modifications
 
