@@ -1,6 +1,6 @@
 # Secure Design Review (SDR) Automation System
 
-This repository contains Copilot skills to automate the Secure Design Review process for JPMorganChase Global Banking applications.
+This repository contains Copilot skills to automate the Secure Design Review process
 
 ---
 
