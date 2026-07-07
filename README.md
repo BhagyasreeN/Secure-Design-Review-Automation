@@ -1,4 +1,3 @@
-QUICK START
 Install Dependencies (One-Time)
 pip install -r requirements.txt
 
