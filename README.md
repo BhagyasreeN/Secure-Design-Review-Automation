@@ -1,6 +1,6 @@
 # Secure Design Review (SDR) Automation System
 
-This repository contains Copilot skills to automate the Secure Design Review process for enterprise applications.
+This repository provides a modular suite of GitHub Copilot Skills engineered to automate and streamline the end-to-end Secure Design Review (SDR) lifecycle for enterprise applications. It integrates artifact text extraction, single-pass architecture and security analysis, deep vulnerability scanning (CVEs, OWASP Top 10, and IaC misconfigurations), and Confluence-ready report generation to accelerate threat modeling and security compliance across development teams.
 
 ---
 
